@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: navajowhite;
+  background-image: url(image/3rt.png);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  color: #fff;
+  padding: 20px 0;
+  height: 20%;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+a {
+  color: white;
+}
+
+h1 {
+  color: yellow;
+  font-style: italic;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 210px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.featured-post, .blog-posts {
+  background-color: white;
+  padding: 20px;
+}
+
+.featured-post h2, .blog-posts h2 {
+  text-align: center;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post h3 {
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  color: white;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* CSS Styles for Banner Image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+marquee{
+  font-style: italic;
+}
+
